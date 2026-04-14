@@ -1,0 +1,5 @@
+laserfence.length (Maximal laser length) int 64
+laserfence.color (Laser beam color) string yellow
+laserfence.bouncy (Laser bouncy/knockback coefficient) int 90
+laserfence.light_source (Laser light source level) int 14
+laserfence.damage (Laser damage per second) int 3
