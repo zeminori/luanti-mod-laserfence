@@ -59,7 +59,7 @@ core.register_node("laserfence:laser", {
 core.register_node("laserfence:receiver", {
 	description = "LaserFence receiver",
 	tiles = {"laserfence_receiver.png"},
-	groups = {cracky=2},
+	groups = {cracky=2, not_cuttable=1},
 })
 
 local beamtxt = "[fill:1x1:1,1:" ..
