@@ -105,6 +105,9 @@ core.register_abm({
 	end
 })
 
+if core.get_modpath("mesecons_mvps") then
+	mesecon.register_mvps_stopper("laserfence:beam")
+end
 
 core.register_craft({
 	output = "laserfence:laser",
